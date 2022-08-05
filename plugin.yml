@@ -1,1 +1,39 @@
+---
 
+name: BetterGamemodeUI
+
+version: "1.0.0"
+
+main: ImTheBadDev\Main
+
+description: plugin to quickly change your game mode
+
+api:
+
+- 4.0.0
+
+author: ImTheBadDev
+
+website: https://bit.ly/ImTheBadDev
+
+php: 8.0
+
+commands:
+
+  gmui:
+
+    description: "§bBetterGamemodeUI v1.0"
+
+    permission: cookiepe.gmui.use
+
+    
+
+permissions:
+
+  cookiepe.gmui.use:
+
+    description: "Permission For /gmui"
+
+    default: op
+
+---
